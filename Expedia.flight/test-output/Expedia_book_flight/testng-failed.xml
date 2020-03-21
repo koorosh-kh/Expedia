@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Expedia_book_flight]">
+  <test thread-count="5" name="Rgression4(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.expedia.com/"/>
+    <classes>
+      <class name="Run3.Book_flight">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Run3.Book_flight -->
+    </classes>
+  </test> <!-- Rgression4(failed) -->
+</suite> <!-- Failed suite [Expedia_book_flight] -->
